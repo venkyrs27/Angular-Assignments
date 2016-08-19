@@ -3,8 +3,8 @@ angular.module('todoApp', [])
     var todoList = this;
     todoList.todos = [
       {text:'assignment1', done:true},
-      {text:'completed', done:true},
-      {text:'Not completed', done:false}];
+      {text:'assignment2', done:false},
+      {text:'assignment3', done:false}];
  
     todoList.addTodotoList = function() {
       todoList.todos.push({text:todoList.todoText, done:false});
